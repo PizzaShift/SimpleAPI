@@ -1,0 +1,14 @@
+dotnet new webapi -n SimpleAPI
+cd SimpleAPI
+dotnet build 
+dotnet new xunit -n SimpleAPI.Test
+
+
+test and make sure the api runs 
+cd src\simpleapi
+dotnet run 
+
+
+cd to test project and and build it after changes 
+
+dotnet test
