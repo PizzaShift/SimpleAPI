@@ -12,3 +12,14 @@ dotnet run
 cd to test project and and build it after changes 
 
 dotnet test
+
+
+let's check this to github
+git --vesion 
+git init 
+git status
+git add . 
+git commit -m "Initial commit"
+
+git push -u origin master
+git remote add origin https://github.com/eric-cabrera/SimpleAPI.git

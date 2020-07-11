@@ -36,6 +36,7 @@ namespace SimpleAPI
                 app.UseDeveloperExceptionPage();
             }
 
+            //adding some test to chek in
             app.UseHttpsRedirection();
 
             app.UseRouting();
