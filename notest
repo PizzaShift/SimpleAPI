@@ -41,3 +41,11 @@ steps:
       projects: "**/*Test/*.csproj"
       arguments: "--configuration $(buildConfiguration)"
  
+
+git status
+git add . 
+git commit -m "updated yml file to run the tests"
+git status
+git push origin master
+
+#this should triger the build and execute the test back in our pipeline 

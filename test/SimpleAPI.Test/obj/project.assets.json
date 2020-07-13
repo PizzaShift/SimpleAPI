@@ -3498,11 +3498,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\test\\SimpleAPI.Test\\SimpleAPI.Test.csproj",
+      "projectUniqueName": "C:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\test\\SimpleAPI.Test\\SimpleAPI.Test.csproj",
       "projectName": "SimpleAPI.Test",
-      "projectPath": "c:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\test\\SimpleAPI.Test\\SimpleAPI.Test.csproj",
+      "projectPath": "C:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\test\\SimpleAPI.Test\\SimpleAPI.Test.csproj",
       "packagesPath": "C:\\Users\\eric\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\test\\SimpleAPI.Test\\obj\\",
+      "outputPath": "C:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\test\\SimpleAPI.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3523,8 +3523,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "c:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\src\\SimpleAPI\\SimpleAPI.csproj": {
-              "projectPath": "c:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\src\\SimpleAPI\\SimpleAPI.csproj"
+            "C:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\src\\SimpleAPI\\SimpleAPI.csproj": {
+              "projectPath": "C:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\src\\SimpleAPI\\SimpleAPI.csproj"
             }
           }
         }
