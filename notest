@@ -33,7 +33,7 @@ git pull
 git push origin master 
 
 
-#i added this section to the yml file so we can the run our tests
+#i added this section to the yml file so we can the run our unit tests
 steps:
   - task: DotNetCoreCLI@2
     imputs:
@@ -67,5 +67,27 @@ https://tfsprodeus2su5.visualstudio.com/A2e9d569e-4e82-44ff-a128-6f1444692912/Si
 
 if i click the test tab i will see the result of the above test
 2 Run(s) Completed ( 1 Passed, 0 Failed )
+
+let's break the unit test, so we can see the result  
+
+https://docs.microsoft.com/en-us/azure/devops/pipelines/artifacts/build-artifacts?view=azure-devops&tabs=yaml
+lets do the package part of the pipeline 
+
+we add the below 2 comands 
+
+#
+- task: DotNetCoreCLI@2
+  displayName: 'dotnet publish --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+  inputs:
+    command: publish
+    publishWebProjects: false
+    projects: 'src/SimpleAPI/SimpleAPI.csproj'
+    arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+    zipAfterPublish: true
+
+# the Artifact
+- task: PublishBuildArtifacts@1
+  displayName: 'publish artifacts'
+
 
 
