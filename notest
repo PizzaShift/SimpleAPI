@@ -44,10 +44,28 @@ steps:
 
 git status
 git add . 
-git commit -m "updated yml file to run the tests"
+git commit -m "updated yml file to run the tests3"
 git status
 git push origin master
 
 #this should triger the build and execute the test back in our pipeline cd 
 
 https://github.com/binarythistle/SimpleAPI
+
+
+after my last check in 
+a new pipeline will be created with a build number and  the abobe commit description 
+  eric-cabrera.SimpleAPI    #20200713.1 updated yml file to run the tests3
+
+if i drill into the pipeline , i will have a job in the summary tab 
+inside the job , i will see the above task DotNetCoreCLI added to the job 
+
+if i go at the end of the task ,i will have the below link to a dash board 
+https://tfsprodeus2su5.visualstudio.com/A2e9d569e-4e82-44ff-a128-6f1444692912/Simple%20API/_TestManagement/Runs?runId=1000006&_a=runCharts
+
+
+
+if i click the test tab i will see the result of the above test
+2 Run(s) Completed ( 1 Passed, 0 Failed )
+
+
