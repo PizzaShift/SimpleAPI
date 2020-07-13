@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\src\\SimpleAPI\\SimpleAPI.csproj": {}
+    "C:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\src\\simpleapi\\SimpleAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\src\\SimpleAPI\\SimpleAPI.csproj": {
+    "C:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\src\\simpleapi\\SimpleAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\src\\SimpleAPI\\SimpleAPI.csproj",
+        "projectUniqueName": "C:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\src\\simpleapi\\SimpleAPI.csproj",
         "projectName": "SimpleAPI",
-        "projectPath": "C:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\src\\SimpleAPI\\SimpleAPI.csproj",
+        "projectPath": "C:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\src\\simpleapi\\SimpleAPI.csproj",
         "packagesPath": "C:\\Users\\eric\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\src\\SimpleAPI\\obj\\",
+        "outputPath": "C:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\src\\simpleapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

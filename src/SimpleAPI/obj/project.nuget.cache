@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YL9KVhQu2BO98ijUW/9Yga9KxNDqjRLqy5w311LNlJIaFAWpEmnEB0OzPfU27YO5snPxlGWwgRXBIs3MDke2Yg==",
+  "dgSpecHash": "UR8oQFK4zBWQCTDyLk6f9xaFB/UVDbv3wxNUqwqq3NVnxlVuiX7gY6GgrI1vWwbgkRY6LdzUD6Lv9TPZ8D5geA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\src\\SimpleAPI\\SimpleAPI.csproj",
+  "projectFilePath": "C:\\Users\\eric\\source\\repos\\demoAPI\\SimpleAPI\\src\\simpleapi\\SimpleAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eric\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
