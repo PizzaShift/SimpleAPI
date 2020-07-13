@@ -44,6 +44,7 @@ namespace SimpleAPI.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(string i)
         {
+
             return i;
         }
     }
