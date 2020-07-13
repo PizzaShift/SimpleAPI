@@ -71,7 +71,7 @@ if i click the test tab i will see the result of the above test
 let's break the unit test, so we can see the result  
 
 https://docs.microsoft.com/en-us/azure/devops/pipelines/artifacts/build-artifacts?view=azure-devops&tabs=yaml
-lets do the package part of the pipeline 
+lets do the package part of the pipeline for the build
 
 we add the below 2 comands 
 
@@ -89,5 +89,15 @@ we add the below 2 comands
 - task: PublishBuildArtifacts@1
   displayName: 'publish artifacts'
 
+
+not let's move to the release pipeline
+we take the above artifact from the build and push it to asure 
+
+the artifact is what we push to azure
+the deployment stage contain subscription app service name and so o
+
+first , create a resource in Azure an API App resorce 
+https://simpleapi.azurewebsites.net/
+NOW LET'S USE THIS RESOURCE FOR OUR RELEASE PIPELINE 
 
 
