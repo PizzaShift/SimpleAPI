@@ -14,7 +14,7 @@ cd to test project and and build it after changes
 dotnet test
 
 
-let's check this to github
+#let's check this to github
 git --vesion 
 git init 
 git status
@@ -23,3 +23,21 @@ git commit -m "Initial commit"
 
 git push -u origin master
 git remote add origin https://github.com/eric-cabrera/SimpleAPI.git
+
+#when i try to push again it will failed becuase the azure-pipelines.yml
+#file was created by devops, so now i need to merage the changes by using pull
+
+git pull
+
+# the push back the chnages 
+git push origin master 
+
+
+#i added this section to the yml file so we can the run our tests
+steps:
+  - task: DotNetCoreCLI@2
+    imputs:
+      command: test
+      projects: "**/*Test/*.csproj"
+      arguments: "--configuration $(buildConfiguration)"
+ 
